@@ -183,19 +183,7 @@ flowchart LR
 
 </div>
 
-### 🐍 Contribution Snake
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vaishnavi19-h/vaishnavi19-h/snake.yml" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vaishnavi19-h/vaishnavi19-h/snake.yml" />
-  <img alt="Contribution snake eating my commits" src="https://raw.githubusercontent.com/vaishnavi19-h/vaishnavi19-h/snake.yml" />
-</picture>
-
-</div>
-
----
 
 ## 🗺️ Current Mission Log
 
