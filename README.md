@@ -81,7 +81,7 @@
 ### ⚡ XP Progress Monitor
 
 <div align="center">
-  <img src="assets/xp-bars.svg" width="100%" alt="Animated skill progress bars in a Windows 7 style window"/>
+  <img src="xp-bars.svg" width="100%" alt="Animated skill progress bars in a Windows 7 style window"/>
 </div>
 
 ---
@@ -277,7 +277,7 @@ C:\Users\Vaishu> status --current
 ---
 
 <div align="center">
-  <img src="assets/taskbar.svg" width="100%" alt="Windows 7 style taskbar with Start orb"/>
+  <img src="taskbar.svg" width="100%" alt="Windows 7 style taskbar with Start orb"/>
   <br/>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:a8d4f5,50:4a90d9,100:1c5fa8&height=120&section=footer" width="100%" alt="footer"/>
 </div>
