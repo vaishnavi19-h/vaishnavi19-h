@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="290" viewBox="0 0 900 290" font-family="Segoe UI, Tahoma, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06306a"/>
+      <stop offset="0.5" stop-color="#2b86d9"/>
+      <stop offset="1" stop-color="#9ad7f8"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#d4e8fa" stop-opacity="0.65"/>
+      <stop offset="0.5" stop-color="#a5cdf0" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#dcefff" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e6f1fb"/>
+    </linearGradient>
+    <linearGradient id="closeBtn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4a99a"/>
+      <stop offset="0.5" stop-color="#d9442b"/>
+      <stop offset="1" stop-color="#b3260f"/>
+    </linearGradient>
+    <linearGradient id="minBtn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.5" stop-color="#bcd7f1"/>
+      <stop offset="1" stop-color="#8fb7de"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0e4a96"/>
+      <stop offset="1" stop-color="#2f9be6"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#021a3d" flood-opacity="0.55"/>
+    </filter>
+    <clipPath id="typeClip">
+      <rect x="110" y="160" width="0" height="40">
+        <animate attributeName="width" values="0;540;540;0" keyTimes="0;0.55;0.9;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Desktop wallpaper -->
+  <rect width="900" height="290" fill="url(#bg)"/>
+  <ellipse cx="170" cy="40" rx="260" ry="90" fill="#ffffff" opacity="0.12"/>
+  <ellipse cx="760" cy="270" rx="300" ry="80" fill="#ffffff" opacity="0.10"/>
+
+  <!-- Floating bubbles -->
+  <g fill="#ffffff">
+    <circle cx="50" cy="250" r="14" opacity="0.18"><animate attributeName="cy" values="270;10;270" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="860" cy="220" r="20" opacity="0.15"><animate attributeName="cy" values="280;0;280" dur="12s" repeatCount="indefinite"/></circle>
+    <circle cx="30" cy="120" r="8" opacity="0.2"><animate attributeName="cy" values="250;20;250" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="90" r="10" opacity="0.2"><animate attributeName="cy" values="270;30;270" dur="8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Window -->
+  <g filter="url(#shadow)">
+    <rect x="60" y="24" width="780" height="242" rx="9" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.5"/>
+  </g>
+  <rect x="70" y="58" width="760" height="198" rx="3" fill="url(#body)" stroke="#6f9bc6" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect x="84" y="31" width="22" height="22" rx="4" fill="#2f9be6"/>
+  <text x="88" y="48" font-size="14" fill="#ffffff">V</text>
+  <text x="114" y="48" font-size="15" fill="#0b2a55" style="text-shadow:0 0 6px #fff">Vaishu — Developer Profile</text>
+
+  <!-- Window buttons -->
+  <rect x="722" y="26" width="34" height="20" rx="4" fill="url(#minBtn)" stroke="#5f84ab"/>
+  <rect x="731" y="38" width="16" height="3" fill="#1b3a63"/>
+  <rect x="758" y="26" width="34" height="20" rx="4" fill="url(#minBtn)" stroke="#5f84ab"/>
+  <rect x="769" y="31" width="12" height="9" fill="none" stroke="#1b3a63" stroke-width="2"/>
+  <rect x="794" y="26" width="42" height="20" rx="4" fill="url(#closeBtn)" stroke="#7a1a0a"/>
+  <text x="809" y="41" font-size="14" font-weight="bold" fill="#ffffff">✕</text>
+
+  <!-- Content -->
+  <text x="110" y="118" font-size="46" font-weight="700" fill="url(#nameGrad)">Hi, I'm Vaishu
+    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+  </text>
+  <text x="110" y="144" font-size="16" fill="#44688f">MCA + BCA Graduate  •  Java Developer  •  AI/ML Engineer</text>
+
+  <g clip-path="url(#typeClip)">
+    <text x="110" y="188" font-size="22" font-family="Consolas, 'Courier New', monospace" fill="#0e4a96">Java • Spring Boot • AI/ML • NLP • GenAI</text>
+  </g>
+  <rect x="654" y="168" width="3" height="26" fill="#2f9be6">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Status chip -->
+  <rect x="110" y="214" width="190" height="26" rx="13" fill="#e3f7e3" stroke="#47a047"/>
+  <circle cx="128" cy="227" r="6" fill="#2fbf2f">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="142" y="232" font-size="13" fill="#216a21">Online · Learning · Building</text>
+</svg>
